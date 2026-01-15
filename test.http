@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<pre id="out"></pre>
+<script>
+  const evt = new EventSource("http://localhost:8080/chat/message");
+  evt.onmessage = e => {
+    document.getElementById("out").textContent += e.data;
+  };
+</script>
+</body>
+</html>
