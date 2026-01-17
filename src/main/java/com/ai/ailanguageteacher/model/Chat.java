@@ -1,6 +1,6 @@
 package com.ai.ailanguageteacher.model;
 
-import com.ai.ailanguageteacher.dto.ChatType;
+import com.ai.ailanguageteacher.dto.enums.ChatType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

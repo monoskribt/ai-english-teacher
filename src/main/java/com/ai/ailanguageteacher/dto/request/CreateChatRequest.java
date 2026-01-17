@@ -1,6 +1,6 @@
 package com.ai.ailanguageteacher.dto.request;
 
-import com.ai.ailanguageteacher.dto.ChatType;
+import com.ai.ailanguageteacher.dto.enums.ChatType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

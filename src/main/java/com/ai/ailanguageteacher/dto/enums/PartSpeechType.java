@@ -1,4 +1,4 @@
-package com.ai.ailanguageteacher.dto;
+package com.ai.ailanguageteacher.dto.enums;
 
 public enum PartSpeechType {
 

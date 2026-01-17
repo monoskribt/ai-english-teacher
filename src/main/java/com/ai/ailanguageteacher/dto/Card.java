@@ -1,5 +1,6 @@
 package com.ai.ailanguageteacher.dto;
 
+import com.ai.ailanguageteacher.dto.enums.PartSpeechType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
