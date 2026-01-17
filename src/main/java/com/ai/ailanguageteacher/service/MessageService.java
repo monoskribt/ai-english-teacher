@@ -14,9 +14,9 @@ public class MessageService {
 
     private final MessageRepository repository;
 
-    public void saveUserMessage(SendMessageRequest request, Chat chat) {
+    public void saveUserMessage(SendMessageRequest request, Chat chat, Long userId) {
         var message = new ChatMessage();
-        message.setUserId(request.getUserId());
+        message.setUserId(userId);
         message.setMessageType(MessageType.USER);
         message.setContent(request.getContent());
         message.setChat(chat);

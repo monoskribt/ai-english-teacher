@@ -53,7 +53,7 @@ public class ChatTeacherService {
         var chat = getChat(chatId);
         var fullAIAnswer = new StringBuilder();
 
-        messageService.saveUserMessage(request, chat);
+        messageService.saveUserMessage(request, chat, userId);
 
         return chatClient.prompt()
                 .user(request.getContent())

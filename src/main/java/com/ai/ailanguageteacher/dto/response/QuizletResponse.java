@@ -11,7 +11,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class VocabularyResponse {
+public class QuizletResponse {
 
     private String topic;
     private String englishLevel;

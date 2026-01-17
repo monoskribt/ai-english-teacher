@@ -14,7 +14,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class VocabularyQuizletFilterRequest {
+public class QuizletFilterRequest {
 
     @NotBlank
     private String topic;
